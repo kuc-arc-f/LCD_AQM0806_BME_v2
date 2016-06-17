@@ -6,6 +6,8 @@ const char* password = "";
 
 const char* mHost     = "api.thingspeak.com";
 const char* mHostTime = "dn1234.com";
+String mAPI_KEY="";
+
 //LCD
 #define ADDR 0x3e
 uint8_t CONTROLL[] = {
@@ -34,7 +36,6 @@ uint32_t mTimerDisp;
 uint32_t mTimerTime;
 uint32_t mTimerTemp;
 
-String mAPI_KEY="TJE2K2OGGYHZI69A";
 //String mReceive="";
 String mTimeStr="0000";
 
